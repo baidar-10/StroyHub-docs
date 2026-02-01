@@ -170,27 +170,6 @@ StroyHub - это двусторонний маркетплейс (как Airbnb
 - Оптимизация производительности
 - Функциональность многоязычности
 
----
-
-SSL is stored in github values
-
-Please deploy a DNS TXT record under the name:
-
-_acme-challenge.stroymaster.kz.
-
-with the value stored in GitHub values.
-
-Before continuing, verify the TXT record has been deployed. Depending on the DNS
-provider, this may take some time, from a few seconds to multiple minutes. You can
-check if it has finished deploying with aid of online tools, such as the Google
-Admin Toolbox: https://toolbox.googleapps.com/apps/dig/#TXT/_acme-challenge.stroymaster.kz.
-Look for one or more bolded line(s) below the line ';ANSWER'. It should show the
-value(s) you've just added.
-
-
-
----
-
 ## Что готово к запуску
 
 ### 🚀 MVP (Минимальный жизнеспособный продукт)
